@@ -13,6 +13,7 @@ public class App
     	AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(MyBean.class);
     	System.out.println(context.getBean(MyBean.class));
     	System.out.println(context.getBean("myBean"));
+    	//System.out.println(context.getBean(Jeep.class));
     	context.close();
     }
 }
